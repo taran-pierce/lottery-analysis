@@ -2,3 +2,5 @@ requests
 beautifulsoup4
 tqdm
 colorama
+pandas
+matplotlib
