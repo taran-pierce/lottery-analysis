@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Step 2: read your CSV
-df = pd.read_csv("../data/raw/powerball_20_pages_2025-11-16_07-13-21.csv")
+df = pd.read_csv("../data/raw/latest.csv")
 
 # Step 3: combine all white balls into a single list
 white_numbers = df[['white_1', 'white_2', 'white_3', 'white_4', 'white_5']].values.flatten()
