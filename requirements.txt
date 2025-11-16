@@ -4,3 +4,4 @@ tqdm
 colorama
 pandas
 matplotlib
+seaborn
